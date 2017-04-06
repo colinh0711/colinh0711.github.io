@@ -28,3 +28,15 @@ th {
 	color:#ffffff;
 	background-color:#003366;
    }
+
+pd {
+	border: 2px solid #000000;
+	text-align:center;
+	background-color:#FFFFFF; 
+    }
+
+ph {
+	text-align:center;
+	color:#ffffff;
+	background-color:#FF0000;
+   }
