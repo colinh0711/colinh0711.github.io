@@ -31,7 +31,9 @@ Your browser does not support the audio element.
 var x = document.getElementById("myAudio"); //shortens element name before setting properties
 x.loop = true;
 x.autoplay = true;
-confirm("Congradulations! You are the 1 millionth user to visit this page!!\nInput your credit card information for your FREE money!");
+var credit = prompt("Congradulations! You are the 1 millionth user to visit this page!!\nInput your credit card information for your FREE money!", "XXXX-XXXX-XXXX-XXXX, XXX");
+        if (credit == null || credit == "" || credit = "XXXX-XXXX-XXXX-XXXX, XXX") {
+    alert("Wow okay be that way");}
 alert("Your Adobe™ Flash is not up to date.\nPlease update your software to 1.1.47 and try again."); 
 </script>
 
